@@ -37,7 +37,7 @@ for msg in st.session_state.messages:
     # st.chat_message("assistant").write(msg)
 
 
-st.session_state.app_key = key
+st.session_state.app_key = 'AIzaSyA5FcQ8pyNtFQ569nsZEto02hesrVmUha0'
 
 # if "app_key" not in st.session_state:
 #     app_key = st.text_input("Please enter your Gemini API Key", type='password')
