@@ -4,9 +4,9 @@ import google.generativeai as genai
 #from google.cloud import language_v1
 import time
 import random
-from .env load key
+#from .env load key
 
-key()
+#key()
 
 #with st.sidebar:
   #  openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
