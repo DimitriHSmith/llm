@@ -4,7 +4,7 @@ import google.generativeai as genai
 #from google.cloud import language_v1
 import time
 import random
-from .gitignore.env load key
+from .env load key
 
 key()
 
