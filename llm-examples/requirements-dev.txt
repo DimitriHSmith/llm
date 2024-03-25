@@ -4,3 +4,4 @@ pre-commit==3.3.3
 watchdog
 pytest
 google.generativeai
+genai
