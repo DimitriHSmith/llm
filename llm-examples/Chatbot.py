@@ -12,7 +12,7 @@ import random
    # "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
 
-st.title("💬 Fiserv")
+st.title("💬 Finserv")
 #st.caption("🚀 A streamlit chatbot powered by OpenAI LLM")
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "Hi! I'm Finserv your Financial Services Policy Expert. I can help you with summarising legislative documents, creating detailed study guides and exam material for staff training and ensure accurate conveyance of information."}]
