@@ -4,6 +4,9 @@ import google.generativeai as genai
 #from google.cloud import language_v1
 import time
 import random
+from .gitignore.env load key
+
+key()
 
 #with st.sidebar:
   #  openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
@@ -34,7 +37,7 @@ for msg in st.session_state.messages:
     # st.chat_message("assistant").write(msg)
 
 
-st.session_state.app_key = 'AIzaSyA5FcQ8pyNtFQ569nsZEto02hesrVmUha0'
+st.session_state.app_key = key
 
 # if "app_key" not in st.session_state:
 #     app_key = st.text_input("Please enter your Gemini API Key", type='password')
